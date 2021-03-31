@@ -1,3 +1,25 @@
 body{
-    background-color: rgba(255, 153, 0, 0.767);
+    background-color: rgba(0, 255, 200, 0.767);
+}
+#barraMenu{
+    background-color: teal;
+}
+
+#barraMenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#barraMenu ul li{
+    display: inline-block;
+}
+
+#barraMenu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#barraMenu ul li a:hover{
+    background-color: white;
+    color: teal;
 }
