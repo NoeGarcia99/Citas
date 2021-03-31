@@ -14,10 +14,14 @@ body{
 #barraMenu ul li{
     display: inline-block;
 }
-
+.derecha{
+    float: right;
+}
 #barraMenu ul li a{
     color: white;
     text-decoration: none;
+    display: block;
+    padding: 12px;
 }
 #barraMenu ul li a:hover{
     background-color: white;
